@@ -1,3 +1,8 @@
 DTLS:
 Datagram Transport Layer Security
 handshake process to establish secure communication, including key and certificate generation.
+
+
+SDP:
+session description protocol messages
+creating-generating and parsing(interpreting)
