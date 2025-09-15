@@ -2,3 +2,5 @@
 
 - awk
 - tee
+- sed
+- gawk
