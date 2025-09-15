@@ -1,1 +1,4 @@
 # Bash_
+
+- awk
+- tee
