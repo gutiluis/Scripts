@@ -4,3 +4,4 @@
 - tee
 - sed
 - gawk
+- tr
