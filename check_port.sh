@@ -7,7 +7,7 @@ print_menu() {
     printf -- "----- BASH: how to use netcat, openssl, telnet ----:\n"
     printf -- "1) port scanning       - check if a host has a certain port open - netcat\n"
     printf -- "2) port 443 scanning   - openssl\n"
-    printf -- "3) port 80 scanning    - telnet\n"
+    printf -- "3) port 80 scanning    - telnet and webs scrapping\n"
     printf "=========================================================\n" 
 }
 
@@ -25,15 +25,22 @@ elif [[ "$get_menu" -eq 2 ]]; then
     openssl s_client -connect $get_server:443    
 
 
-#TODO: fix.... after calling telnet it enters an interactive mode. line 32
+#TODO: fix.... after calling telnet it enters an interactive mode. line 32 # web scrapping telnet port 80 openssl port 443
 elif [[ "$get_menu" -eq 3 ]]; then
-    read -p "Enter host (ex: google.com): " host
+    read -p "Enter webpage to get source code: (ex: google.com): " get_html_webpage
+    telnet "$get_html_webpage" 80 > html_output.txt
+    GET / HTTP/1.1 # shouldnt be a command
+    Host: "$get_html_webpage"
 
-    telnet "$host" 80 <<EOF
-    GET / HTTP/1.1
-    Host: $host
-
-    EOF
+# get xml
+    read -p "want to get xml?" get_xml_scrapping
+    if [[ $get_xml_scrapping -eq "no" ]]; then
+        print_menu
+    else:   
+        echo "[INFO] Getting xml format from the webpage..."
+        telnet "$get_html_webpage" 80 > xml_output.txt
+        GET /xml HTTP/1.1
+        Host: $get_html_webpage
 
 else:
     echo "goodbye...";
