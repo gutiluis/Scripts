@@ -7,10 +7,8 @@ cat <<EOF > index.html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Template</title>
+    <title>[INFO]Write a browser header...</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+  <body></body>
 </html>
 EOF
