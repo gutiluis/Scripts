@@ -5,3 +5,4 @@
 - sed
 - gawk
 - tr
+- case
