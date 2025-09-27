@@ -2,6 +2,8 @@
 
 # case-menu: a menu driven system information program
 
+# TODO: write output in new >> file.txt
+
 clear
 echo "
 Please Select:
