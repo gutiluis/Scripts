@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+# uses a restricted shell and no authentication do not use in production. only local dev
 # after downloading the image
 # connect with psql official image
 
