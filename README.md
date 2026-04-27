@@ -17,15 +17,12 @@ General purposes automation tools for shells bash, etc...
 
 ---
 
-### How to use:
+### How to use with bash:
 
 ```bash
+git clone https://github.com/gutiluis/Scripts/
 chmod +x filename.sh
 ./filename.sh
 ```
 
 ---
-
-```bash
-git clone https://github.com/gutiluis/Scripts/
-```
