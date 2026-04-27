@@ -17,6 +17,8 @@ General purposes automation tools for shells bash, etc...
 - gawk
 - tr
 - case
+- Docker
+- Postgres
 - others...
 
 ---
