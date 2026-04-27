@@ -1,8 +1,8 @@
-# Bash Automation
+# Shell Automation
 
 Currently under development:
 
-General purposes automation tools for shells
+General purposes automation tools for shells bash, etc...
 
 ---
 
@@ -14,6 +14,15 @@ General purposes automation tools for shells
 - tr
 - case
 - others...
+
+---
+
+### How to use:
+
+```bash
+chmod +x filename.sh
+./filename.sh
+```
 
 ---
 
