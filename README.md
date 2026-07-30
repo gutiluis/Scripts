@@ -10,7 +10,8 @@ General purposes automation tools for shells bash, etc...
 
 ---
 
- Tech Stack:
+## Tech Stack
+
 - awk
 - tee
 - sed
@@ -23,7 +24,7 @@ General purposes automation tools for shells bash, etc...
 
 ---
 
-### How to use with bash:
+### How it works
 
 ```bash
 git clone https://github.com/gutiluis/Scripts/
@@ -32,6 +33,21 @@ chmod +x filename.sh
 ```
 
 ---
-![License](https://img.shields.io/github/license/gutiluis/Scripts?style=flat-square&color=blue)
+
+## Contributing
+
+If you are interested in reporting/fixing issues and contributing directly to the code base, please see [CONTRIBUTING.md](https://github.com/gutiluis/.github/blob/main/CONTRIBUTING.md) for more information on what we're looking for and how to get started.
+
+---
+
+## Community
+
+Info on reporting bugs, getting help, finding third-party tools and sample apps, and more can be found on our **Community** channels:
+* **Discord:** [Community channel](https://discord.gg/5xdAFuadP)
+* **Slack Workspace:** [technobool.slack.com](https://technobool.slack.com)
+* **GitHub Discussions:** [Open a discussion](https://github.com/gutiluis/Scripts/discussions)
+
+---
+
 ### License
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
